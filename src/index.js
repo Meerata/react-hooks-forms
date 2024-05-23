@@ -1,8 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Form from './components/Form'
+// src/index.js
+import React from "react";
+import ReactDOM from "react-dom";
+import ParentComponent from "./components/ParentComponent";
 
 ReactDOM.render(
-  <Form />,
-  document.getElementById('root')
+  <React.StrictMode>
+    <ParentComponent />
+  </React.StrictMode>,
+  document.getElementById("root")
 );
